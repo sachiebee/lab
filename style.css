@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: #f4f4f4;
+  padding: 2rem;
+  color: #222;
+}
+
+.resume {
+  max-width: 60rem;
+  margin: 0 auto;
+  background: #fff;
+  padding: 3rem;
+  border: 0.1rem solid #ddd;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.logo {
+  font-weight: bold;
+  border: 0.15rem solid #000;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
+
+/* Columns */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Section Headings */
+section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  border-bottom: 0.1rem solid #ccc;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* Items (Experience & Education) */
+.item {
+  margin-bottom: 1.5rem;
+}
+
+.item h3 {
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.item span {
+  font-weight: normal;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.place {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+/* Skills & Awards */
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 0.6rem;
+}
+
+li i {
+  margin-right: 0.5rem;
+  color: #444;
+}
+
+.award i {
+  color: #c49b0b;
+}
+
+section p i {
+  margin-right: 0.5rem;
+  color: #444;
+}
+You sent
+body {
+  background-color: #2b2b2b;
+  font-size: 1rem;
+}
+
+.resume {
+  max-width: 60rem;
+  padding: 3rem;
+  margin: 3rem auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-weight: 700;
+  border-bottom: 0.1rem solid #ccc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.item {
+  margin-bottom: 2rem;
+}
+
+.hexagon {
+  width: 6rem;
+  height: 3.5rem;
+  background: #222;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+}
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  border-left: 3rem solid transparent;
+  border-right: 3rem solid transparent;
+}
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 1.75rem solid #222;
+}
+.hexagon:after {
+  top: 100%;
+  border-top: 1.75rem solid #222;
+}
+.hexagon span {
+  line-height: 3.5rem;
+}
